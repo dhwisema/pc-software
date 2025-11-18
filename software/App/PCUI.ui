@@ -133,7 +133,14 @@ border-radius: 0px;
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_5">
             <item>
-             <widget class="QPushButton" name="pushButton_4">
+             <widget class="QPushButton" name="SwitchPager">
+              <property name="text">
+               <string>Set Pagers</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="SwitchManual">
               <property name="text">
                <string>Manual</string>
               </property>
@@ -143,13 +150,6 @@ border-radius: 0px;
              <widget class="QPushButton" name="SwitchAuto">
               <property name="text">
                <string>Automatic</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QPushButton" name="SwitchPager">
-              <property name="text">
-               <string>Set Pagers</string>
               </property>
              </widget>
             </item>
@@ -199,109 +199,8 @@ border-radius: 0px;
             <bool>true</bool>
            </property>
            <property name="currentIndex">
-            <number>1</number>
+            <number>0</number>
            </property>
-           <widget class="QWidget" name="Manual">
-            <widget class="QWidget" name="horizontalLayoutWidget">
-             <property name="geometry">
-              <rect>
-               <x>230</x>
-               <y>170</y>
-               <width>206</width>
-               <height>122</height>
-              </rect>
-             </property>
-             <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,1">
-              <item>
-               <spacer name="horizontalSpacer">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-              <item>
-               <widget class="QFrame" name="ManualIcons">
-                <layout class="QVBoxLayout" name="verticalLayout_6">
-                 <item>
-                  <widget class="QLabel" name="Title">
-                   <property name="text">
-                    <string>            MANUAL QUEUE</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <layout class="QGridLayout" name="gridLayout">
-                   <item row="0" column="0">
-                    <widget class="QLabel" name="TeamA">
-                     <property name="minimumSize">
-                      <size>
-                       <width>81</width>
-                       <height>16</height>
-                      </size>
-                     </property>
-                     <property name="text">
-                      <string>Select Team A</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="1">
-                    <widget class="QComboBox" name="comboBox_2"/>
-                   </item>
-                   <item row="0" column="1">
-                    <widget class="QLabel" name="TeamB">
-                     <property name="minimumSize">
-                      <size>
-                       <width>81</width>
-                       <height>16</height>
-                      </size>
-                     </property>
-                     <property name="text">
-                      <string>Select Team B</string>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="0">
-                    <widget class="QComboBox" name="comboBox"/>
-                   </item>
-                  </layout>
-                 </item>
-                 <item>
-                  <layout class="QVBoxLayout" name="verticalLayout_4">
-                   <item>
-                    <widget class="QPushButton" name="pushButton">
-                     <property name="text">
-                      <string>Message Team</string>
-                     </property>
-                    </widget>
-                   </item>
-                  </layout>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <spacer name="horizontalSpacer_2">
-                <property name="orientation">
-                 <enum>Qt::Orientation::Horizontal</enum>
-                </property>
-                <property name="sizeHint" stdset="0">
-                 <size>
-                  <width>40</width>
-                  <height>20</height>
-                 </size>
-                </property>
-               </spacer>
-              </item>
-             </layout>
-            </widget>
-           </widget>
-           <widget class="QWidget" name="Automatic_1"/>
            <widget class="QWidget" name="SetTeams">
             <widget class="QLabel" name="TeamTitleLable">
              <property name="geometry">
@@ -524,6 +423,107 @@ border-radius: 0px;
              </property>
             </widget>
            </widget>
+           <widget class="QWidget" name="Manual">
+            <widget class="QWidget" name="horizontalLayoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>230</x>
+               <y>170</y>
+               <width>206</width>
+               <height>122</height>
+              </rect>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,1">
+              <item>
+               <spacer name="horizontalSpacer">
+                <property name="orientation">
+                 <enum>Qt::Orientation::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QFrame" name="ManualIcons">
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <item>
+                  <widget class="QLabel" name="Title">
+                   <property name="text">
+                    <string>            MANUAL QUEUE</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <layout class="QGridLayout" name="gridLayout">
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="TeamA">
+                     <property name="minimumSize">
+                      <size>
+                       <width>81</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Select Team A</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QComboBox" name="comboBox_2"/>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QLabel" name="TeamB">
+                     <property name="minimumSize">
+                      <size>
+                       <width>81</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Select Team B</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QComboBox" name="comboBox"/>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_4">
+                   <item>
+                    <widget class="QPushButton" name="pushButton">
+                     <property name="text">
+                      <string>Message Team</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_2">
+                <property name="orientation">
+                 <enum>Qt::Orientation::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="Automatic"/>
           </widget>
          </item>
         </layout>

@@ -10,16 +10,16 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
 
         # Connect your buttons to stacked widget
-        self.ui.pushButton_4.clicked.connect(self.show_manual_page)
+        self.ui.SwitchManual.clicked.connect(self.show_manual_page)
         self.ui.SwitchPager.clicked.connect(self.show_set_pagers_page)
         self.ui.SwitchAuto.clicked.connect(self.show_automatic_page)
 
     # --- Page switching functions ---
     def show_manual_page(self):
-        self.ui.stackedWidget.setCurrentIndex(0)
+        self.ui.stackedWidget.setCurrentIndex(1)
 
     def show_set_pagers_page(self):
-        self.ui.stackedWidget.setCurrentIndex(1)
+        self.ui.stackedWidget.setCurrentIndex(0)
 
     def show_automatic_page(self):
         self.ui.stackedWidget.setCurrentIndex(2)
