@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'PCUIZxtuuL.ui'
+## Form generated from reading UI file 'PCUIvYJuPK.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -152,10 +152,10 @@ class Ui_MainWindow(object):
 
         self.TeamBlock1 = QGridLayout()
         self.TeamBlock1.setObjectName(u"TeamBlock1")
-        self.Pid1 = QLineEdit(self.horizontalLayoutWidget_3)
-        self.Pid1.setObjectName(u"Pid1")
+        self.PID1 = QLineEdit(self.horizontalLayoutWidget_3)
+        self.PID1.setObjectName(u"PID1")
 
-        self.TeamBlock1.addWidget(self.Pid1, 0, 1, 1, 1)
+        self.TeamBlock1.addWidget(self.PID1, 0, 1, 1, 1)
 
         self.TeamN4 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN4.setObjectName(u"TeamN4")
