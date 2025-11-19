@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'PCUIvYJuPK.ui'
+## Form generated from reading UI file 'PCUIBknWFP.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -245,8 +245,8 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_3.addWidget(self.line_3)
 
-        self.BlockForTeamSet1_2 = QVBoxLayout()
-        self.BlockForTeamSet1_2.setObjectName(u"BlockForTeamSet1_2")
+        self.BlockForTeamSet2 = QVBoxLayout()
+        self.BlockForTeamSet2.setObjectName(u"BlockForTeamSet2")
         self.Textlabels_2 = QHBoxLayout()
         self.Textlabels_2.setObjectName(u"Textlabels_2")
         self.PagerID1_2 = QLabel(self.horizontalLayoutWidget_3)
@@ -267,95 +267,95 @@ class Ui_MainWindow(object):
         self.Textlabels_2.addWidget(self.label_5)
 
 
-        self.BlockForTeamSet1_2.addLayout(self.Textlabels_2)
+        self.BlockForTeamSet2.addLayout(self.Textlabels_2)
 
-        self.TeamBlock1_2 = QGridLayout()
-        self.TeamBlock1_2.setObjectName(u"TeamBlock1_2")
-        self.Pid9 = QLineEdit(self.horizontalLayoutWidget_3)
-        self.Pid9.setObjectName(u"Pid9")
+        self.TeamBlock2 = QGridLayout()
+        self.TeamBlock2.setObjectName(u"TeamBlock2")
+        self.PID9 = QLineEdit(self.horizontalLayoutWidget_3)
+        self.PID9.setObjectName(u"PID9")
 
-        self.TeamBlock1_2.addWidget(self.Pid9, 0, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID9, 0, 1, 1, 1)
 
         self.TeamN12 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN12.setObjectName(u"TeamN12")
 
-        self.TeamBlock1_2.addWidget(self.TeamN12, 3, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN12, 3, 0, 1, 1)
 
         self.PID11 = QLineEdit(self.horizontalLayoutWidget_3)
         self.PID11.setObjectName(u"PID11")
 
-        self.TeamBlock1_2.addWidget(self.PID11, 2, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID11, 2, 1, 1, 1)
 
         self.PID10 = QLineEdit(self.horizontalLayoutWidget_3)
         self.PID10.setObjectName(u"PID10")
 
-        self.TeamBlock1_2.addWidget(self.PID10, 1, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID10, 1, 1, 1, 1)
 
         self.TeamN15 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN15.setObjectName(u"TeamN15")
 
-        self.TeamBlock1_2.addWidget(self.TeamN15, 6, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN15, 6, 0, 1, 1)
 
         self.TeamN11 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN11.setObjectName(u"TeamN11")
 
-        self.TeamBlock1_2.addWidget(self.TeamN11, 2, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN11, 2, 0, 1, 1)
 
         self.PID12 = QLineEdit(self.horizontalLayoutWidget_3)
         self.PID12.setObjectName(u"PID12")
 
-        self.TeamBlock1_2.addWidget(self.PID12, 3, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID12, 3, 1, 1, 1)
 
         self.TeamN9 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN9.setObjectName(u"TeamN9")
 
-        self.TeamBlock1_2.addWidget(self.TeamN9, 0, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN9, 0, 0, 1, 1)
 
         self.PID14 = QLineEdit(self.horizontalLayoutWidget_3)
         self.PID14.setObjectName(u"PID14")
 
-        self.TeamBlock1_2.addWidget(self.PID14, 5, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID14, 5, 1, 1, 1)
 
         self.TeamN13 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN13.setObjectName(u"TeamN13")
 
-        self.TeamBlock1_2.addWidget(self.TeamN13, 4, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN13, 4, 0, 1, 1)
 
         self.PID13 = QLineEdit(self.horizontalLayoutWidget_3)
         self.PID13.setObjectName(u"PID13")
 
-        self.TeamBlock1_2.addWidget(self.PID13, 4, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID13, 4, 1, 1, 1)
 
         self.TeamN14 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN14.setObjectName(u"TeamN14")
 
-        self.TeamBlock1_2.addWidget(self.TeamN14, 5, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN14, 5, 0, 1, 1)
 
         self.TeamN10 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN10.setObjectName(u"TeamN10")
 
-        self.TeamBlock1_2.addWidget(self.TeamN10, 1, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN10, 1, 0, 1, 1)
 
         self.TeamN16 = QLineEdit(self.horizontalLayoutWidget_3)
         self.TeamN16.setObjectName(u"TeamN16")
 
-        self.TeamBlock1_2.addWidget(self.TeamN16, 7, 0, 1, 1)
+        self.TeamBlock2.addWidget(self.TeamN16, 7, 0, 1, 1)
 
         self.PID15 = QLineEdit(self.horizontalLayoutWidget_3)
         self.PID15.setObjectName(u"PID15")
 
-        self.TeamBlock1_2.addWidget(self.PID15, 6, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID15, 6, 1, 1, 1)
 
         self.PID16 = QLineEdit(self.horizontalLayoutWidget_3)
         self.PID16.setObjectName(u"PID16")
 
-        self.TeamBlock1_2.addWidget(self.PID16, 7, 1, 1, 1)
+        self.TeamBlock2.addWidget(self.PID16, 7, 1, 1, 1)
 
 
-        self.BlockForTeamSet1_2.addLayout(self.TeamBlock1_2)
+        self.BlockForTeamSet2.addLayout(self.TeamBlock2)
 
 
-        self.horizontalLayout_3.addLayout(self.BlockForTeamSet1_2)
+        self.horizontalLayout_3.addLayout(self.BlockForTeamSet2)
 
         self.label_2 = QLabel(self.SetTeams)
         self.label_2.setObjectName(u"label_2")

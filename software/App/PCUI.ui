@@ -314,7 +314,7 @@ border-radius: 0px;
                </widget>
               </item>
               <item>
-               <layout class="QVBoxLayout" name="BlockForTeamSet1_2">
+               <layout class="QVBoxLayout" name="BlockForTeamSet2">
                 <item>
                  <layout class="QHBoxLayout" name="Textlabels_2">
                   <item>
@@ -341,9 +341,9 @@ border-radius: 0px;
                  </layout>
                 </item>
                 <item>
-                 <layout class="QGridLayout" name="TeamBlock1_2">
+                 <layout class="QGridLayout" name="TeamBlock2">
                   <item row="0" column="1">
-                   <widget class="QLineEdit" name="Pid9"/>
+                   <widget class="QLineEdit" name="PID9"/>
                   </item>
                   <item row="3" column="0">
                    <widget class="QLineEdit" name="TeamN12"/>
